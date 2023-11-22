@@ -4,7 +4,7 @@
   <p>Este projeto tem como conceito criar um jogo para se divertir e se desafiar</p>
 
 ## <p>Estrutura do Código</p>
- <p>O codigo é estruturado em uma main.py sendo a base principal e com pasta components onde tem os arquivos: container_two, container_two, start_game e menus. Onde sao feitas as funções necessarios.</p>
+ <p>O codigo é estruturado em uma main.py sendo a base principal e com pasta components onde tem os arquivos: container_one, container_two, start_game e menus. Onde sao feitas as funções necessarios.</p>
 
 #### <p>1. start</p> 
   <p>Função que verifica se a palavra está no arquivo de palavras usadas e adiciona a palavra escolhida no arquivo de palavras usadas</p>
