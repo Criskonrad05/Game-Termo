@@ -7,11 +7,10 @@ class colors:
     GREEN = '\033[92m'
     BLUE = '\033[94m'
     PURPLE = '\033[0;38;5;129m'
-    RESET = '\033[0m'
 
     @staticmethod
     def colour(texto, cor):
-        return cor + texto + colors.RESET
+        return cor + texto + colors.WHITE
 
 def clean(): # apaga a ultima linha que foi utilizada
     
