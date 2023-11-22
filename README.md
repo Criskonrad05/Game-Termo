@@ -1,37 +1,37 @@
-# <p align="center">Trabalho Avaliativo G1<p>
+# <p align="center">Trabalho Avaliativo G2<p>
 
 ## <p>Introdução</p>
-  <p>Este projeto tem como conceito criar uma programa para facilitar o manuseio do gerenciamento do estoque de uma loja X, podendo rastrear produtos, preços, quantidade e suas categorias.</p>
+  <p>Este projeto tem como conceito criar um jogo para se divertir e se desafiar</p>
 
 ## <p>Estrutura do Código</p>
- <p>O codigo é estruturado em uma main.py sendo a base principal onde terá todas as chamadas das funções, e com pasta modules onde tem os arquivos: stock, sales, historic e menu. Onde sao feitas as funções necessarios.</p>
+ <p>O codigo é estruturado em uma main.py sendo a base principal e com pasta components onde tem os arquivos: container_two, container_two, start_game e menus. Onde sao feitas as funções necessarios.</p>
 
-#### <p>1. Adicionar Produto</p> 
-  <p>Função necessaria para criar um novo produto, com ele ira pedir quantidade, preço e sua categoria. Caso esse produto ja exista ele ira acrescentar a quantidade fornecida.</p>
+#### <p>1. start</p> 
+  <p>Função que verifica se a palavra está no arquivo de palavras usadas e adiciona a palavra escolhida no arquivo de palavras usadas</p>
 
-#### <p>2. Alterar Valor do Produto</p>
-  <p>Função utilizada para alterar o preço de um produto ja existente no cadastro de produtos. Utilizado para caso aja alguma modificação no preço do produto da loja.</p>
+#### <p>2. start_game</p>
+  <p>Função utilizada para iniciar o jogo e verificara se a palavra ja foi utilizada e se acertou a palavra oculta.</p>
 
-#### <p>3. Excluir Produto</p>
-  <p>Função especifica para excluir determinado produto.</p>
+#### <p>3. validate_word</p>
+  <p>Função especifica para que valida a palavra se ela tem numeros, ou se tem mais letras do que deveria.</p>
 
-#### <p>4. Buscar Produto</p>
-  <p>Função utilizada para buscar determinado produto e exibir sua informações.</p>
+#### <p>4. check_number</p>
+  <p>Função utilizada para ajudar a validare_word onde verifica se tem numeros nela.</p>
 
-#### <p>5. Buscar Categoria</p>
-  <p>Função utilizada para buscar todos os produtos de determinada categoria.</p>
+#### <p>5. input_valided</p>
+  <p>Função utilizada para verificar se o valor é valido.</p>
 
-#### <p>6. Todos os cadastros</p>
-  <p>Função que mostra todos os produtos atualmente cadastrados.</p>
+#### <p>6. random_word</p>
+  <p>Função que gera uma palavra aleatoria.</p>
 
-#### <p>7. Venda de um Produto</p>
-  <p>Função para cadastrar uma venda realizada. Mostrando hora, dia e preço da venda.</p>
+#### <p>7. analyze_word</p>
+  <p>Função que verifica se a letra não está na palavra secreta, verifica se tem a letra na palavra e nao esta na posição certa e verifica se a letra da palavra digitada está na mesma posição da palavra secreta.</p>
 
-#### <p>8. Relatório das vendas</p>
-  <p>Função especifica para mostrar todas as vendas realizadas.</p>
+#### <p>8. add_word</p>
+  <p>Função especifica para adicionar a palavra sorteada no arquivo word_used, onde mostra as palavras que ja foram utilizadas.</p>
 
-#### <p>0. Sair</p>
-  <p>Utilizado para sair do menu.</p>
+#### <p>0. word_already_used</p>
+  <p>Utilizado para verifica se a palavra existe no arquivo de palavras usadas.</p>
 
 ## <p>Colaborador</p>
  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/126731138?v=4" width=115><br><sub>Cristian André Fiorese Konrad</sub>](https://github.com/Criskonrad05) 
