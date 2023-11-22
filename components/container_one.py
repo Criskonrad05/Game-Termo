@@ -44,10 +44,10 @@ def add_word(word_discover): # adicionar a palavra sorteada no arquivo
 
     return True
 
-def word_already_used(word): # verifica se a palavra existe no arquivo de palavras usadas
+def word_already_used(word_discover): # verifica se a palavra existe no arquivo de palavras usadas
     
     file = open('word_used.txt', 'r') 
-    if word in file:
+    if word_discover in file:
         file.close()
         return True
     file.close()
