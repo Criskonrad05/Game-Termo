@@ -30,7 +30,7 @@
 #### <p>8. add_word</p>
   <p>Função especifica para adicionar a palavra sorteada no arquivo word_used, onde mostra as palavras que ja foram utilizadas.</p>
 
-#### <p>0. word_already_used</p>
+#### <p>9. word_already_used</p>
   <p>Utilizado para verifica se a palavra existe no arquivo de palavras usadas.</p>
 
 ## <p>Colaborador</p>
