@@ -2,7 +2,7 @@ from components import start_game
 from components import container_one
 
 def main ():
-    file = open ("word.txt", "r")
+    file = open("word.txt", "r")
 
     line = file.readline()
 
